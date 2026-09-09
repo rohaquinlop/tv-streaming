@@ -1,0 +1,14 @@
+{
+  "id": "com.family.tvcolombia",
+  "version": "1.0.0",
+  "vendor": "Family",
+  "type": "web",
+  "main": "index.html",
+  "title": "TV Colombia",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "resolution": "1920x1080",
+  "bgColor": "#000000",
+  "disableBackHistoryAPI": true,
+  "requiredACG": []
+}
