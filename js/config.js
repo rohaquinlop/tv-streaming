@@ -1,5 +1,5 @@
 var Config = {
-  REMOTE_URL: '',
+  REMOTE_URL: 'https://raw.githubusercontent.com/rohaquinlop/tv-streaming/master/channels.json',
   FETCH_TIMEOUT: 5000,
 
   FALLBACK_CHANNELS: [
