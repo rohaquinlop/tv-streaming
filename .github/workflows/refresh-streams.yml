@@ -1,0 +1,35 @@
+name: Refresh stream URLs
+
+on:
+  schedule:
+    # Every 6 hours. The TV reads channels.json on each app launch.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg for codec probing
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Resolve working stream URLs
+        run: python3 scripts/resolve_streams.py
+
+      - name: Commit the updated channel list
+        run: |
+          if git diff --quiet -- channels.json js/sources.js; then
+            echo "Stream URL lists are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add channels.json js/sources.js
+          git commit -m "chore: refresh stream URLs"
+          git push
