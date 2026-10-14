@@ -1,2 +1,3 @@
 *.ipk
 .sdd/
+__pycache__/
