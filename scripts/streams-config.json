@@ -1,0 +1,14 @@
+{
+  "max_urls_per_channel": 4,
+  "max_pool_per_channel": 12,
+  "channels": {
+    "caracol": {
+      "iptv_org": ["CaracolTV.co"],
+      "extra_urls": []
+    },
+    "rcn": {
+      "iptv_org": ["RCNHD.co", "RCNHD2.co"],
+      "extra_urls": []
+    }
+  }
+}
