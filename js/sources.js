@@ -21,12 +21,12 @@ var StreamSources = {
       "http://181.78.17.228:8081/CARACOL-HD/index.m3u8",
       "http://181.79.86.130:8000/play/a077/index.m3u8",
       "http://167.249.23.102:8000/play/a0i1/index.m3u8",
-      "http://38.190.100.202:8000/play/a09v/index.m3u8",
       "https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8",
       "http://181.78.21.38:8000/play/a0b5/index.m3u8",
       "http://181.78.8.199:8000/play/a0jz/index.m3u8",
       "http://190.121.140.222:8081/CARACOL/index.m3u8",
-      "http://179.60.224.196:8000/play/a0hw/index.m3u8"
+      "http://179.60.224.196:8000/play/a0hw/index.m3u8",
+      "http://181.79.87.131:8000/play/a0f0/index.m3u8"
     ],
     "rcn": [
       "http://181.78.17.228:8081/RCN-HD/index.m3u8",
