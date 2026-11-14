@@ -18,7 +18,6 @@ var StreamSources = {
       "http://168.228.44.241:9997/play/a03t/index.m3u8",
       "http://200.115.96.61:9090/play/a0jk/index.m3u8",
       "http://181.78.17.228:8081/CARACOL-HD/index.m3u8",
-      "http://181.79.86.130:8000/play/a077/index.m3u8",
       "http://167.249.23.102:8000/play/a0i1/index.m3u8",
       "http://179.60.224.196:8000/play/a0hw/index.m3u8",
       "http://181.78.8.199:8000/play/a0b0/index.m3u8",
@@ -26,7 +25,8 @@ var StreamSources = {
       "http://181.78.12.119:16123/play/ch58/index.m3u8",
       "http://181.78.12.119:16123/play/ch58a/index.m3u8",
       "http://181.78.12.119:16123/play/ch58b/index.m3u8",
-      "http://181.78.21.38:8000/play/a0b5/index.m3u8"
+      "http://181.78.21.38:8000/play/a0b5/index.m3u8",
+      "http://181.79.87.131:8000/play/a0f0/index.m3u8"
     ],
     "rcn": [
       "http://181.78.17.228:8081/RCN-HD/index.m3u8",
