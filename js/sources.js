@@ -25,8 +25,8 @@ var StreamSources = {
       "http://181.78.12.119:16123/play/ch58/index.m3u8",
       "http://181.78.12.119:16123/play/ch58a/index.m3u8",
       "http://181.78.12.119:16123/play/ch58b/index.m3u8",
-      "http://181.79.87.131:8000/play/a0f0/index.m3u8",
-      "http://190.61.47.54:8000/play/a01e/index.m3u8"
+      "http://181.78.21.38:8000/play/a0b5/index.m3u8",
+      "http://181.79.87.131:8000/play/a0f0/index.m3u8"
     ],
     "rcn": [
       "http://181.78.17.228:8081/RCN-HD/index.m3u8",
